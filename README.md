@@ -49,7 +49,6 @@ For more information about each project, please check the report included in eac
           <summary> 3.Mached every keypoint with one word</summary>
           <summary> 4. Created a histogram for each image based on the frequency of the appearence of the words(created above) in the image. </summary>
     * Task 3 - Image Classification using the vocabulary created above.
-      <details>
          * Using k-NN without the use of the function cv.ml.KNearest_create() .
          * Using the one-versus-all where each class is trained with an SVM classifier.
     * Task 4 - Evaluated the system
@@ -59,3 +58,10 @@ For more information about each project, please check the report included in eac
           <summary> 2.Checked how the number of words(from BOW) affects the result.</summary>
            <summary> 3. Checked how the number of neighbours(k-means) affects the result.</summary>
           <summary> 4. Checked how the kernel size (SVM) affects the result. </summary>
+
+### Project 4: ###
+Implemented 2 Convolutional Neural Networks
+   * A non pretrained one using regularization,augmentation,bach normalization and max-pooling 
+   * A pretrained network tuning the parameters to fit our datasets needs.</br>
+   Used VGG19,VGG16 and InceptionV3 . </br>
+#### For more info, check the report in the project3 folder. ####
