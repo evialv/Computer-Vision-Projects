@@ -4,7 +4,7 @@ For more information about each project, please check the report included in eac
 #### Report included in every project :) ####
 
 ### Project 1: ###
-* This project focuses on analysing the image and using the data from the cells that have bee detected from a microscope.
+ * This project focuses on analysing the image and using the data from the cells that have bee detected from a microscope.
     * Task 1 - Cell Counting
         <details>
           <summary> Steps:</summary>
@@ -24,9 +24,16 @@ For more information about each project, please check the report included in eac
     * Task 3 - Mean gradient of gray scale
         <details>
           <summary> Steps:</summary>
-          <summary> 1.Create bounding boxes around each cell</summary>
-          <summary> 2.Create the sum table where each value is the sum from all the above (process explained in the report visually and theoritically)</summary>
-          <summary> 3. Call the cv integral function to help us with the scale variance.</summary>
-          <summary> 4. Use the following function to calculate the gray scale of each cell:</br>
+          <summary> 1.Created bounding boxes around each cell</summary>
+          <summary> 2.Created the sum table where each value is the sum from all the above (process explained in the report visually and theoritically)</summary>
+          <summary> 3. Called the cv integral function to help with the scale variance.</summary>
+          <summary> 4. Used the following function to calculate the gray scale of each cell:</br>
           gray_sum = integral_image[(y + h), (x + w)] - integral_image[(y + h), x] - integral_image[y, (x + w)] + integral_image[(y - 1), (x - 1)]</summary>
-          <summary> 4. Divide the gray_sum with the number of cells in each bounding box to get the mean value . </summary>
+          <summary> 4. Divided the gray_sum with the number of cells in each bounding box to get the mean value . </summary>
+
+### Project 2: ###
+* This project focuses on manually creating a panorama from more than 4 different photos.
+   * Task 1 - Created a panorama using sift implementation
+      
+   * Task 2 - Created a panorama using surf implementation </br>
+#### For more information about the process, check the report included in project 2 ####
