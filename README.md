@@ -37,3 +37,25 @@ For more information about each project, please check the report included in eac
       
    * Task 2 - Created a panorama using surf implementation </br>
 #### For more information about the process, check the report included in project 2 ####
+
+
+### Project 3: ###
+ * This project focuses on multiclass clasification using unsupervised learning.
+    * Task 1,2 - Visual Vocabulary & Descriptor Extraction based on the Bag Of Words madel. 
+        <details>
+          <summary> Steps:</summary>
+          <summary> 1.Extracted the charasteristics of every image in the dataset. </summary>
+           <summary> 2.Word creation using k-means. </summary>
+          <summary> 3.Mached every keypoint with one word</summary>
+          <summary> 4. Created a histogram for each image based on the frequency of the appearence of the words(created above) in the image. </summary>
+    * Task 3 - Image Classification using the vocabulary created above.
+      <details>
+         * Using k-NN without the use of the function cv.ml.KNearest_create() .
+         * Using the one-versus-all where each class is trained with an SVM classifier.
+    * Task 4 - Evaluated the system
+        <details>
+          <summary> Evaluated the following:</summary>
+          <summary> 1.Using the imagedb_test measured the accuracy of the system(in both classifier cases).</summary>
+          <summary> 2.Checked how the number of words(from BOW) affects the result.</summary>
+           <summary> 3. Checked how the number of neighbours(k-means) affects the result.</summary>
+          <summary> 4. Checked how the kernel size (SVM) affects the result. </summary>
