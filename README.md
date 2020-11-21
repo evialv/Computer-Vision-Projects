@@ -59,9 +59,11 @@ For more information about each project, please check the report included in eac
            <summary> 3. Checked how the number of neighbours(k-means) affects the result.</summary>
           <summary> 4. Checked how the kernel size (SVM) affects the result. </summary>
 
+#### For more info, check the report in the project3 folder. ####
+
 ### Project 4: ###
 Implemented 2 Convolutional Neural Networks
    * A non pretrained one using regularization,augmentation,bach normalization and max-pooling 
    * A pretrained network tuning the parameters to fit our datasets needs.</br>
    Used VGG19,VGG16 and InceptionV3 . </br>
-#### For more info, check the report in the project3 folder. ####
+#### For more info, check the report in the project4 folder. ####
