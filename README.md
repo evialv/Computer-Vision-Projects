@@ -1,4 +1,4 @@
-# Information_Retrival
+# Computer Vision
 The goal of these projects was to make us familiar with computer vision concepts and techniques. <br/>
 For more information about each project, please check the report included in each project. <br/>
 #### Report included in every project :) ####
